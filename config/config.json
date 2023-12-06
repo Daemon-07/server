@@ -1,0 +1,125 @@
+{
+  "development": {
+    "server": {
+      "host": "localhost",
+      "port": 7700
+    },
+    "logger": {
+      "level": "dev"
+    },
+    "razorPay":{
+      "razorPayKey" : "cnpwX3Rlc3RfVzNpaVZtU1JEMk1Vcko6a3dQSjQ0dmhsQ0tyY1RvRk90Tno4MTdt",
+    "razorPaySecret" : "kwPJ44vhlCKrcToFOtNz817m",
+    "razorPayKeyOnly" :"rzp_test_W3iiVmSRD2MUrJ"
+    },
+    "db": {
+      "dialect":"mysql",
+      "host": "localhost",
+      "username": "root",
+      "password": "",
+      "database": "rexcoders_new",
+      "port": 3306,
+      "ssl": false,
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "smtp": {
+      "host": "mail.rexknar.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "sobin.jm@rexknar.com",
+        "pass": "rexKnar@2018"
+      }
+    },
+    "TOKEN_SECRET": "Rexcoders_2022_by_rexKnar@2018",
+    "environment": "development",
+    "salt": 11
+  },
+  "staging": {
+    "server": {
+      "host": "localhost",
+      "port": 7700
+    },
+    "logger": {
+      "level": "dev"
+    },
+    "razorPay":{
+      "razorPayKey" : "cnpwX3Rlc3RfVzNpaVZtU1JEMk1Vcko6a3dQSjQ0dmhsQ0tyY1RvRk90Tno4MTdt",
+    "razorPaySecret" : "kwPJ44vhlCKrcToFOtNz817m",
+    "razorPayKeyOnly" :"rzp_test_W3iiVmSRD2MUrJ"
+    },
+    "db": {
+      "dialect":"mysql",
+      "host": "MYSQL5049.site4now.net",
+      "username": "a9e3f3_rexcode",
+      "password": "rexCoders@2022",
+      "database": "db_a9e3f3_rexcode",
+      "port": 3306,
+      "ssl": false,
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "smtp": {
+      "host": "mail.rexknar.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "sobin.jm@rexknar.com",
+        "pass": "rexKnar@2018"
+      }
+    },
+    "TOKEN_SECRET": "Rexcoders_2022_by_rexKnar@2018",
+    "environment": "development",
+    "salt": 11
+  },
+  "production": {
+    "server": {
+      "host": "localhost",
+      "port": 7700
+    },
+    "logger": {
+      "level": "dev"
+    },
+    "db": {
+      "dialect":"mysql",
+      "host": "localhost",
+      "username": "root",
+      "password": "",
+      "database": "rexcoders",
+      "port": 3306,
+      "ssl": false,
+      "pool": {
+        "max": 5,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 10000
+      }
+    },
+    "razorPay":{
+      "razorPayKey" : "cnpwX3Rlc3RfVzNpaVZtU1JEMk1Vcko6a3dQSjQ0dmhsQ0tyY1RvRk90Tno4MTdt",
+      "razorPaySecret" : "eJIol0pRGx6Q5qXazRZ9NhpJ",
+      "razorPayKeyOnly" :"rzp_live_d1DGugWfFboXEw"
+    },
+    "smtp": {
+      "host": "mail.rexknar.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "sobin.jm@rexknar.com",
+        "pass": "rexKnar@2018"
+      }
+    },
+    "TOKEN_SECRET": "Rexcoders_2022_by_rexKnar@2018",
+    "environment": "development",
+    "salt": 11
+  }
+}
